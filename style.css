@@ -1,0 +1,27 @@
+
+h1, h2 {
+    text-align: center;
+}
+
+.square {
+    background-color: #f2f2f0;
+    height: 30px;
+    width: 30px;
+    border-block: 0.1px solid #d9d9d9;
+    border-inline: 0.1px solid #d9d9d9;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 496px;
+    margin-bottom: 25px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
